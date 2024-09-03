@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 #card{
-    background-color: #fff8f3;
+    /* background-color: #fcd2c0; */
 }
+*{
+    font-family: 'Libre Baskerville';
+}
+
+.container{
+
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+/* #card2{
+    background-color: rgba(0, 0, 0, 0.797);
+} */
