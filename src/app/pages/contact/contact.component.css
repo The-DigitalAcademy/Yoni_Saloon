@@ -1,0 +1,11 @@
+*{
+  font-family: 'Libre Baskerville';
+  background-color: whitesmoke;
+
+}
+button{
+  background-color: rgba(252,210,192,255);
+}
+.text{
+  color: rgba(252,210,192,255);
+}
