@@ -4,10 +4,10 @@
 }
 *{
     font-family: 'Libre Baskerville';
-    /* font-size: 14px; */
+    /* font-size: 14px; */   
 }
 body{
-    /* background-color: yellow; */
+    /* background-color:yellow; */
 }
 
 .container{
@@ -19,11 +19,15 @@ margin-left: auto;
 margin-right: auto;
 display: flex;
 flex-direction: column;
-gap: 10px;
+gap: 8px;
 }
 
 #card2{
     background-color: rgba(0, 0, 0, 0.88);
+    color: whitesmoke;
+}
+#card4{
+    background-color: whitesmoke;
 }
 
 #btn{
@@ -66,8 +70,12 @@ h2{
     font-size: 18px;
 }
 #top{
-    /* gap: 5px; */
+    /* gap: 3px; */
 }
 #bottom{
-    /* gap: 5px */
+    /* gap: 3px */
+}
+
+img{
+    height: 90px;
 }
