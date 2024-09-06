@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 #card{
     background-color: rgba(252,210,192,255);
+    border: none;
 }
 *{
-    font-family: 'Libre Baskerville';
-    /* font-size: 14px; */   
+
+    font-size: 22px;   
 }
 body{
-    /* background-color:yellow; */
+    background-color: whitesmoke;
+    /* background-color: yellow; */
 }
 
 .container{
@@ -19,15 +20,17 @@ margin-left: auto;
 margin-right: auto;
 display: flex;
 flex-direction: column;
-gap: 8px;
+gap: 20px;
 }
 
 #card2{
     background-color: rgba(0, 0, 0, 0.88);
     color: whitesmoke;
+    border: none;
 }
 #card4{
     background-color: whitesmoke;
+    border: none;
 }
 
 #btn{
@@ -70,12 +73,35 @@ h2{
     font-size: 18px;
 }
 #top{
-    /* gap: 3px; */
+    gap: 20px;
 }
 #bottom{
-    /* gap: 3px */
+    gap: 20px
 }
 
 img{
-    height: 90px;
+    height: 180px;
+    width: 150px;
+}
+/* #card4:hover{
+    background-color: rgba(128, 128, 128, 0.18);
+}
+#card:hover{
+    background-color: rgba(250,184,157,255);
+
+}
+#card2:hover{
+    background-color: rgba(27, 26, 26, 0.885);
+} */
+#btnInfo{
+    background-color: rgba(0, 0, 0, 0.817);
+    /* background-color: rgba(252,210,192,255); */
+    /* border-color: black; */
+    /* border: solid; */
+    /* color: rgba(252,210,192,255); */
+    color: white;
+    border-radius: 10px;
+}
+#btnInfo:hover{
+background-color: rgb(35, 34, 34) ;
 }
