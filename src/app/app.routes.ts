@@ -1,4 +1,12 @@
 import { Routes } from '@angular/router';
+import { ContactComponent } from './pages/contact/contact.component';
+
+
+export const routes: Routes = [
+
+  { path: '',title: "contact", component: ContactComponent},
+
+];
 
 import { GalleryComponent } from './pages/gallery/gallery.component';
 
@@ -18,4 +26,5 @@ component: ServicesComponent
 
 
 }];
+
 
