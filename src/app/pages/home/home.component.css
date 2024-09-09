@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+.background-container {
+    background-image: url('https://t4.ftcdn.net/jpg/02/83/44/53/360_F_283445354_zIRT25XEl2In9PWbYTTFZ7A8yh1Kdb6T.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative; /* To position the text absolutely within the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .text-overlay {
+    text-align: center;
+    color: white;
+    z-index: 1; /* Ensure it is above any background */
+  }
+  
+  .welcome-text {
+    font-family: 'Kalam', cursive;
+    font-size: 120px;
+    color: white; /* White text for "Welcome" */
+    margin: 0;
+  }
+  
+  .sub-text {
+    /* font-family: 'libre basckerville'; */
+    font-size: 30px;
+    color: black; 
+    margin-top: 10px;
+  }
+  .invisible-button {
+    background-color: rgb(255, 255, 255); /* Slight white background on hover */
+    border-color: white; 
+    border-radius: 12px;/* Show a border on hover */
+    color: rgb(211, 186, 141);
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    height: 60px;
+    width: 200px;
+    z-index: 2;
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .invisible-button:hover {
+    background-color: rgb(253, 249, 239);
+    color:rgb(250, 199, 105);
+    /* background-color: rgba(252,210,192,255); 
+    border-color: white; 
+    color: white;  */
+  }
+  
