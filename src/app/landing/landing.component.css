@@ -1,0 +1,23 @@
+.invisible-button {
+    background-color: rgb(255, 255, 255); /* Slight white background on hover */
+    border-color: white; 
+    border-radius: 12px;/* Show a border on hover */
+    color: rgb(211, 186, 141);
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    height: 60px;
+    width: 200px;
+    z-index: 2;
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .invisible-button:hover {
+    background-color: rgb(253, 249, 239);
+    color:rgb(250, 199, 105);
+    /* background-color: rgba(252,210,192,255); 
+    border-color: white; 
+    color: white;  */
+  }
