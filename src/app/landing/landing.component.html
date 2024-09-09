@@ -1,0 +1,151 @@
+<section class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+        <!-- Carousel Container -->
+        <div id="default-carousel" class="relative w-full" data-carousel="slide">
+          <!-- Carousel wrapper -->
+          <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+            <!-- Item 1 -->
+            <div class="duration-700 ease-in-out" data-carousel-item>
+              <img src="https://t3.ftcdn.net/jpg/06/60/52/18/360_F_660521869_RecVf8LyV0ULng6Trnn2LViPDGx5Xp3o.jpg"
+                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Beauty Salon">
+            </div>
+            <!-- Item 2 -->
+            <div class="duration-700 ease-in-out" data-carousel-item>
+              <img src="https://connect.in-cosmetics.com/wp-content/uploads/2021/08/Men-grooming_Blog_1400x800-760x475@2x.png"
+                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Men's Grooming">
+            </div>
+            <!-- Item 3 -->
+            <div class="duration-700 ease-in-out" data-carousel-item>
+              <img src="https://www.xanadumedspa.com/wp-content/uploads/2023/09/iStock-1208759286-1024x617.webp"
+                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Facial Treatment">
+            </div>
+            <!-- Item 4 -->
+            <div class="duration-700 ease-in-out" data-carousel-item>
+              <img src="https://www.hydroint.co.za/wp-content/uploads/2023/11/manicurist-master-makes-manicure-woman-s-hands-spa-treatment-concept-scaled.jpg"
+                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Manicure Service">
+            </div>
+          </div>
+          <!-- Slider indicators -->
+          <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+              data-carousel-slide-to="0"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+              data-carousel-slide-to="1"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+              data-carousel-slide-to="2"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
+              data-carousel-slide-to="3"></button>
+          </div>
+          <!-- Slider controls -->
+          <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            data-carousel-prev>
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+              <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M5 1L1 5l4 4" />
+              </svg>
+              <span class="sr-only">Previous</span>
+            </span>
+          </button>
+          <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            data-carousel-next>
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+              <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M1 9l4-4-4-4" />
+              </svg>
+              <span class="sr-only">Next</span>
+            </span>
+          </button>
+        </div>
+      </div>
+      <!-- Text Section -->
+      <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Welcome to Yoni Salon
+          <br class="hidden lg:inline-block">Your Ultimate Salon Experience
+        </h1>
+        <p class="mb-8 leading-relaxed">Indulge in luxury treatments designed to pamper and rejuvenate. From hair and nails to facials and massage therapy, we have something for everyone.</p>
+        <div class="flex justify-center">
+          <button  [routerLink]="[ '/contact' ]" routerLinkActive="active" class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Book Now</button>
+          <button [routerLink]="[ '/service' ]" routerLinkActive="active"  class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Explore Services</button>
+
+        </div>
+
+      </div>
+      
+    </div>
+  </section>
+  
+  <script>
+    const carousel = document.querySelector('[data-carousel="slide"]');
+    let carouselItems = carousel.querySelectorAll('[data-carousel-item]');
+    let currentIndex = 0;
+    const totalItems = carouselItems.length;
+  
+    function showSlide(index) {
+      carouselItems.forEach((item, i) => {
+        item.classList.add('hidden');
+        item.classList.remove('block');
+        if (i === index) {
+          item.classList.add('block');
+          item.classList.remove('hidden');
+        }
+      });
+    }
+  
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % totalItems;
+      showSlide(currentIndex);
+    }
+  
+    function startAutoSlide() {
+      setInterval(() => {
+        nextSlide();
+      }, 3000); // Change slide every 3 seconds
+    }
+  
+    document.addEventListener('DOMContentLoaded', () => {
+      showSlide(currentIndex);
+      startAutoSlide();
+    });
+  </script>
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap -m-4">
+        <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+          <div class="h-full text-center">
+            <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://t3.ftcdn.net/jpg/06/60/52/18/360_F_660521869_RecVf8LyV0ULng6Trnn2LViPDGx5Xp3o.jpg">
+            <p class="leading-relaxed">Our Braiding Cart service takes convenience and style to a whole new level. Whether you're looking for a fresh protective style or a creative new look, our experts will bring their braiding skills directly to you. 
+              .</p>
+            <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Gugu Mkhwanazi</h2>
+            <p class="text-gray-500">Senior Product Designer</p>
+          </div>
+        </div>
+        <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+          <div class="h-full text-center">
+            <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="data:image/jpeg;base64,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">
+            <p class="leading-relaxed">Waxing Services
+                Smooth Skin Awaits
+                
+                At Full Beauty & Co, we offer a range of waxing services to keep your skin smooth and beautiful. Our skilled professionals use top-quality products for a comfortable experience and long-lasting results.</p>
+            <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Life Lebisi</h2>
+            <p class="text-gray-500">Salon Manager</p>
+          </div>
+        </div>
+        <div class="lg:w-1/3 lg:mb-0 p-4">
+          <div class="h-full text-center">
+            <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXPFKzx_rOLlMrmNTNN6KCWeV4p_sb7YGIMg&s">
+            <p class="leading-relaxed">Whether you’re a professional or simply enjoy massages at home, this cart offers an unmatched experience. Its adjustable ergonomic features, high-quality materials, and integrated storage solutions allow you to keep everything you need within reach.</p>
+            <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Yonela Kulati</h2>
+            <p class="text-gray-500">CLO</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
