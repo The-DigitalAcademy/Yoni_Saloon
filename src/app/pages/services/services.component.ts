@@ -1,19 +1,15 @@
 import { Component } from '@angular/core';
 
-import { NavComponent } from '../../UI/nav/nav.component';
 
+import { NavbarComponent } from '../../UI/navbar/navbar.component';
 
 @Component({
   selector: 'app-services',
   standalone: true,
 
-  imports: [],
-
-  imports: [NavComponent],
+  imports: [NavbarComponent],
 
   templateUrl: './services.component.html',
-  styleUrl: './services.component.css'
+  styleUrl: './services.component.css',
 })
-export class ServicesComponent {
-
-}
+export class ServicesComponent {}

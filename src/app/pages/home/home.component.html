@@ -1,58 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Noto+Serif:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
-        body {
-            background-image: url('https://t4.ftcdn.net/jpg/02/83/44/53/360_F_283445354_zIRT25XEl2In9PWbYTTFZ7A8yh1Kdb6T.jpg');
-            background-size: cover;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-            min-height: 100vh;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
+      body {
+        background-image: url("https://t4.ftcdn.net/jpg/02/83/44/53/360_F_283445354_zIRT25XEl2In9PWbYTTFZ7A8yh1Kdb6T.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
 
-        .content {
-            color: white;
-            font-family: Arial, sans-serif;
-        }
+      .content {
+        color: white;
+        font-family: Arial, sans-serif;
+      }
 
-        .content h1 {
-            font-size: 60px;
-            font-style: italic;
-            margin: 0;
-            color: white; /* White italic "Welcome" */
-        }
+      .content h1 {
+        font-size: 60px;
+        font-style: italic;
+        margin: 0;
+        color: white; /* White italic "Welcome" */
+      }
 
-        .content p {
-            font-size: 30px;
-            font-family: monospace;
-            color: black; /* Black monospace "To a Full Beauty & Co Experience" */
-            margin-top: 10px;
-        }
+      .content p {
+        font-size: 30px;
+        font-family: monospace;
+        color: black; /* Black monospace "To a Full Beauty & Co Experience" */
+        margin-top: 10px;
+      }
     </style>
     <title>Background with Text Overlay</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="background-container">
-        <div class="text-overlay">
-          <h1 class="welcome-text">Welcome</h1>
-          <h2 class="sub-text">To a Full Beauty & Co Experience</h2>
-      
-          <!-- Invisible "Get Started" Button -->
-          <button class="invisible-button" (click)="goToLanding()">Get Started</button>
-        </div>
-      </div>
-      
-      
-      
-</body>
+      <div class="text-overlay">
+        <h1 class="welcome-text">Welcome</h1>
+        <h2 class="sub-text">To a Full Beauty & Co Experience</h2>
 
+        <a [routerLink]="['/home']" routerLinkActive="router-link-active"
+          ><button class="invisible-button">Get Started</button></a
+        >
+      </div>
+    </div>
+  </body>
 </html>
