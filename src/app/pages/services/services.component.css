@@ -8,7 +8,7 @@
 }
 body{
     background-color: whitesmoke;
-    /* background-color: yellow; */
+ 
 }
 
 .container{
@@ -47,13 +47,13 @@ gap: 20px;
 }
 #btn2{
     background-color: transparent;
-    /* color: black; */
+
     font-weight: 400;
     font-size: 11px;
 }
 
 #btn:hover{
-    /* background-color: rgb(252,210,192,255); */
+
     color: rgba(252,210,192,255);
 }
 #btn1:hover{
@@ -87,22 +87,10 @@ img{
     height: 180px;
     width: 150px;
 }
-/* #card4:hover{
-    background-color: rgba(128, 128, 128, 0.18);
-}
-#card:hover{
-    background-color: rgba(250,184,157,255);
 
-}
-#card2:hover{
-    background-color: rgba(27, 26, 26, 0.885);
-} */
+
 #btnInfo{
     background-color: rgba(0, 0, 0, 0.817);
-    /* background-color: rgba(252,210,192,255); */
-    /* border-color: black; */
-    /* border: solid; */
-    /* color: rgba(252,210,192,255); */
     color: white;
     border-radius: 10px;
     margin-bottom: 20px;

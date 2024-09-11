@@ -6,7 +6,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     min-height: 100vh;
-    position: relative; /* To position the text absolutely within the container */
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,26 +15,26 @@
   .text-overlay {
     text-align: center;
     color: white;
-    z-index: 1; /* Ensure it is above any background */
+    z-index: 1; 
   }
   
   .welcome-text {
     font-family: 'Kalam', cursive;
     font-size: 120px;
-    color: white; /* White text for "Welcome" */
+    color: white; 
     margin: 0;
   }
   
   .sub-text {
-    /* font-family: 'libre basckerville'; */
+ 
     font-size: 30px;
     color: black; 
     margin-top: 10px;
   }
   .invisible-button {
-    background-color: rgb(255, 255, 255); /* Slight white background on hover */
+    background-color: rgb(255, 255, 255); 
     border-color: white; 
-    border-radius: 12px;/* Show a border on hover */
+    border-radius: 12px;
     color: rgb(211, 186, 141);
     position: absolute;
     bottom: 50px;
@@ -44,14 +44,12 @@
     height: 60px;
     width: 200px;
     z-index: 2;
-    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    transition: all 0.3s ease;
   }
   
   .invisible-button:hover {
     background-color: rgb(253, 249, 239);
     color:rgb(250, 199, 105);
-    /* background-color: rgba(252,210,192,255); 
-    border-color: white; 
-    color: white;  */
+ 
   }
   
